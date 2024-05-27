@@ -8,16 +8,7 @@ const ModalCom = ({
     handleCancel,
     selectedTime,
 }) => {
-    // const [isModalOpen, setIsModalOpen] = useState(false);
-    // const showModal = () => {
-    //     setIsModalOpen(true);
-    // };
-    // const handleOk = () => {
-    //     setIsModalOpen(false);
-    // };
-    // const handleCancel = () => {
-    //     setIsModalOpen(false);
-    // };
+
     const data = JSON.parse(localStorage.getItem("info-data"));
     return (
         <>
