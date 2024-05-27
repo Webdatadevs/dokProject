@@ -22,7 +22,7 @@ const Schedule = ({ infoData, selectedTime, handleTimeClick }) => {
                                     selectedTime?.time === el
                                         ? " bg-blue-bg text-header-bg  "
                                         : "bg-blue-btn"
-                                }`}
+                                } rounded-[10px]`}
                             >
                                 {el}
                             </button>
