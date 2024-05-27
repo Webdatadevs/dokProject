@@ -1,0 +1,80 @@
+{
+    "doktors": [
+        {
+            "id": "1",
+            "title": "Абдуллаев Абдулла",
+            "jobTitle": "Оториноларинголог",
+            "honeyInstitution": "Семейная поликлиника",
+            "address": "Республика Каракалпакстан, Нукус, А.Досназаров ул., 110",
+            "speciality": "Врач общей практики",
+            "schedule": [
+                {
+                    "date": "2024-06-01",
+                    "times": ["07:00", "07:30", "16:00"]
+                },
+                {
+                    "date": "2024-06-02",
+                    "times": ["08:00", "08:30", "17:00"]
+                }
+            ],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3K8Qwdp2KHC5l9U0LR4EfLxA1wDgVb0RqrMhSkX2xUqpkb-1zsda12tUeAGvl3wu72_Q&usqp=CAU"
+        },
+        {
+            "id": "2",
+            "title": "Джон",
+            "jobTitle": "Педиатр",
+            "honeyInstitution": "Семейная поликлиника",
+            "address": "Республика Каракалпакстан, Нукус, А.Досназаров ул., 110",
+            "speciality": "Врач общей практики",
+            "schedule": [
+                {
+                    "date": "2024-06-01",
+                    "times": ["07:00", "07:30", "16:00"]
+                },
+                {
+                    "date": "2024-06-02",
+                    "times": ["08:00", "08:30", "17:00"]
+                }
+            ],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqhjKWkt0IqgFk7sLIe2ZXC9VJAemRvUuUpqgyLaD3Kbvk8cL7Mqg81JM5kLK2-FP6NEs&usqp=CAU"
+        },
+        {
+            "id": "3",
+            "title": "Лиза",
+            "jobTitle": "Оториноларинголог",
+            "honeyInstitution": "Семейная поликлиника",
+            "address": "Республика Каракалпакстан, Нукус, А.Досназаров ул., 110",
+            "speciality": "Врач общей практики",
+            "schedule": [
+                {
+                    "date": "2024-06-01",
+                    "times": ["07:00", "07:30", "16:00"]
+                },
+                {
+                    "date": "2024-06-02",
+                    "times": ["08:00", "08:30", "17:00"]
+                }
+            ],
+            "image": "https://www.anadolumedicalcenter.bg/wp-content/uploads/2014/04/ayse-sokullu-1.jpg"
+        },
+        {
+            "id": "4",
+            "title": "Лилия",
+            "jobTitle": "Гинеколог",
+            "honeyInstitution": "Семейная поликлиника",
+            "address": "Республика Каракалпакстан, Нукус, А.Досназаров ул., 110",
+            "speciality": "Врач общей практики",
+            "schedule": [
+                {
+                    "date": "2024-06-01",
+                    "times": ["07:00", "07:30", "16:00"]
+                },
+                {
+                    "date": "2024-06-02",
+                    "times": ["08:00", "08:30", "17:00"]
+                }
+            ],
+            "image": "https://www.anadolumedicalcenter.bg/wp-content/uploads/2014/04/aysegun-karahan-1.jpg"
+        }
+    ]
+}
