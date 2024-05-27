@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import DoctorInfo from "./DoctorInfo";
 import Schedule from "./Schedule";
 import SelectedTimeButton from "./SelectedTimeButton";
+import Cart from "../../cart/Cart";
 
 const About = () => {
     const state = useSelector((state) => state.doktorsData);
@@ -29,14 +30,14 @@ const About = () => {
     const handleTimeClick = (date, time) => {
         setSelectedTime({ date, time });
     };
-    const [isModalOpen, setIsModalOpen] = useState(false)
+    const [isModalOpen, setIsModalOpen] = useState(false);
     const showModal = () => {
-        setIsModalOpen(true)
-    }
+        setIsModalOpen(true);
+    };
     const handleOk = () => {
-        setIsModalOpen(false)
-    }
-     const handleCancel = () => {
+        setIsModalOpen(false);
+    };
+    const handleCancel = () => {
         setIsModalOpen(false);
     };
     return (
@@ -48,12 +49,21 @@ const About = () => {
                     selectedTime={selectedTime}
                     handleTimeClick={handleTimeClick}
                 />
-                <SelectedTimeButton 
-                isModalOpen={isModalOpen}  
-                showModal={showModal} 
-                handleOk={handleOk}
-                selectedTime={selectedTime}
-                handleCancel={handleCancel} />
+                <SelectedTimeButton
+                    isModalOpen={isModalOpen}
+                    showModal={showModal}
+                    handleOk={handleOk}
+                    selectedTime={selectedTime}
+                    handleCancel={handleCancel}
+                />
+            </div>
+            <div className="w-4/5 mx-[auto] mt-[20px] py-[20px]">
+                <span className=" text-[32px] ">Другие врачи</span>
+                <div className="grid grid-cols-grid-cart gap-4 mt-4 ">
+                    {state.doktors?.map((item) => (
+                        <Cart key={item.id} item={item} />
+                    ))}
+                </div>
             </div>
         </div>
     );
