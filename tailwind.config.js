@@ -7,7 +7,7 @@ export default {
             "blue-bg": "#42B2FC",
             "dark-bg": "#282828",
             "gray-bg": "#717171",
-            "layout-bg": "#DEDEDE",
+            "layout-bg": "#f3f5f6",
             "blue-btn": "#E1F1FF",
             "input-bg": "#F5F7FA",
             "text-bg": "#263238",
