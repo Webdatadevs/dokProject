@@ -9,7 +9,7 @@ const ModalCom = ({
     selectedTime,
 }) => {
 
-    const data = JSON.parse(localStorage.getItem("info-data"));
+    const data = JSON.parse(localStorage.getItem("info-data")) || [];
     return (
         <>
             <Modal
@@ -17,6 +17,7 @@ const ModalCom = ({
                 open={isModalOpen}
                 onOk={handleOk}
                 onCancel={handleCancel}
+                footer={null}
             >
                 {[data]?.map((item) => (
                     <div key={item.id}>
